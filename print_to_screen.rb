@@ -13,13 +13,15 @@
 # end
 
 number = 1
-100.times do
-	if number % 3 ==0
+100.times do #runs it 100 times
+	if number % 15 == 0 #every 15 say mined minds
+		puts "mined minds"
+	elsif number % 3 == 0 #or put "mined" every 3rd word
 		puts "mined"
-	elsif number == 5
+	elsif number % 5 == 0 #or put "minds" every 5th word
 		puts "minds"
 	else
-		puts number
+		puts number #or else just the number
 	end
 	number = number + 1
 
