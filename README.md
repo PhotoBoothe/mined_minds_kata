@@ -1,2 +1,2 @@
 My version of the mined minds kata, with substitutions
-please shut up Ty
+please shut the FUCK up Ty
